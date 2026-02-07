@@ -1,3 +1,5 @@
+--created by zebrald with Gemini AI lmao
+
 local ffi = require("ffi")
 
 -- --- FFI 初始化 (用于本地彩色输出) ---
@@ -162,5 +164,6 @@ client.set_event_callback("paint", function()
         ::next_ent::
     end
 end)
+
 
 client.set_event_callback("round_start", function() chicken_cache = {} end)
