@@ -6,7 +6,7 @@ local ref_dt = { ui.reference("RAGE", "Aimbot", "Double tap") }
 local master_switch = ui.new_checkbox("RAGE", "Other", "Fakelag on while double tap teleporting")
 local chk_custom_delay = ui.new_checkbox("RAGE", "Other", "Custom DT Recharge Delay")
 local sli_delay_time = ui.new_slider("RAGE", "Other", "Recharge Delay Time", 1, 100, 20, true, "s", 0.01)
-local lbl_info = ui.new_label("RAGE", "Other", "Skeet normal 0.4s")
+local lbl_info = ui.new_label("RAGE", "Other", "Skeet normal 0.4s but scout 0.3s better")
 
 local mul_delay_weapons = ui.new_multiselect("RAGE", "Other", "Apply to Weapons", {
     "Auto (G3SG1/SCAR20)",
