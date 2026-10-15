@@ -55,7 +55,7 @@ My-luas/
 | `Automute_server_mvp_music(tea).lua` | 服务器 MVP 音乐自动静音 | — |
 | `Fast_ladder.lua` | 快速上下梯子 | AA > Anti-aimbot angles |
 | `Fast_throw.lua` | 快速投掷 | — |
-| `Pilot_s_buybot.lua` | Pilot 购买机器人 | LUA > B |
+| `Pilot_s_buybot.lua` | **Pilot 原作**购买机器人 | LUA > B |
 | `Rare_weapon_animations.lua` | 稀有武器动画 | — |
 | `Remove_Collision.lua` | 关闭地图碰撞 | VISUALS > Effects |
 | `model_changer.lua` | 模型替换 | skins > model options |
@@ -200,7 +200,8 @@ My-luas/
 
 以下脚本内嵌了明确的来源标注：
 
-- **s0daa/CSGO-HVH-LUAS** — `Pilot_s_buybot.lua`、`Fishesp_beta.lua`、`fog.lua`、`Chinese_Hat.lua`、`Player_Trails.lua`
+- **Pilot** — `Pilot_s_buybot.lua`（原作，控件名 `Pilot's buybot`、存档键 `pilotbuybot`）
+- **s0daa/CSGO-HVH-LUAS**（**转载来源，非作者**）— `Fishesp_beta.lua`、`fog.lua`、`Chinese_Hat.lua`、`Player_Trails.lua` 的文件头均标注 `Downloaded from` 该仓库；原始作者未在文件中署名
 - **skeet.cc / gamesense.pub 论坛** — `Thirdperson_Animations.lua`、`Panorama_Removal.lua`、`molotov_dormant.lua` 等
 - **sapphyrus** — `helper.lua`（远程地图数据）、`Bloom.lua` 与 `Sound_volume_modifiers.lua` 的 API 生成脚本
 - **Bassn (hitome56)** — `hud.lua`、`Custom_Font_Hitmarker.lua`
@@ -257,7 +258,9 @@ All other scripts passed static inspection with no network requests found — bu
 
 ### Credits
 
-See the Chinese section above for the full list of embedded credits (s0daa/CSGO-HVH-LUAS, skeet.cc community, sapphyrus, Bassn, SamzSakerz, Exodouding, havoc, qhouz, 3yozk1, BaKa, Seripk, and zebrald's own scripts).
+See the Chinese section above for the full list of embedded credits (Pilot, s0daa/CSGO-HVH-LUAS as a reupload source, the skeet.cc community, sapphyrus, Bassn, SamzSakerz, Exodouding, havoc, qhouz, 3yozk1, BaKa, Seripk, and zebrald's own scripts).
+
+> Note: `s0daa/CSGO-HVH-LUAS` is where several files were **reuploaded from**, not necessarily their author. Where a file names its original author (e.g. `Pilot's buybot`), that author is credited separately.
 
 > `+Seripk_adaptive_weapon.lua` was originally written by **Seripk**; zebrald only fixes and maintains it (the file header notes `--fix and new features by zebrald`).
 
