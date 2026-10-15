@@ -96,7 +96,7 @@ My-luas/
 | `+Adaptive_Weapon.lua` | 自适应武器版本 | RAGE > Other / aimbot |
 | `+Ev1-weapon.lua` | Ev1 自适应武器（带武器 HUD） | Rage > Aimbot / Other |
 | `+Ev1_Weapon_new.lua` | Ev1 自适应武器新版 | Lua > A / B |
-| `+Seripk_adaptive_weapon.lua` | Seripk 版，由 zebrald 修复并加新功能 | Rage > Aimbot / Other |
+| `+Seripk_adaptive_weapon.lua` | **Seripk 原作**，由 zebrald 修复并加新功能 | Rage > Aimbot / Other |
 | `+Seripk_wpn_old.lua` | Seripk 旧版 | LUA > B、VISUALS > Other ESP |
 | `+adap.lua` | 自适应武器（混淆压缩） | RAGE > Aimbot / Other |
 | `+unfailer_weapon.lua` | ⚠️ **见安全提示** | — |
@@ -210,7 +210,10 @@ My-luas/
 - **qhouz** — `Cascade_Light.lua`
 - **3yozk1** — `Skybox_fixed.lua`
 - **BaKa** — `Aimbot_log.lua`
-- **作者自研（zebrald，部分借助 Gemini AI）** — `Fastsetup.lua`、`Chicken_esp.lua`、`fakelag_on_while_double_tap_teleporting.lua`、`+Seripk_adaptive_weapon.lua`
+- **Seripk** — `+Seripk_adaptive_weapon.lua`（原作）、`+Seripk_wpn_old.lua`、`Aimlog.lua` 的 `[Seripk] Aimbot log`
+- **作者自研（zebrald，部分借助 Gemini AI）** — `Fastsetup.lua`、`Chicken_esp.lua`、`fakelag_on_while_double_tap_teleporting.lua`
+
+> `+Seripk_adaptive_weapon.lua` 的原作者是 **Seripk**，zebrald 仅做修复与功能维护（文件头注明 `--fix and new features by zebrald`）。
 
 ### 声明
 
@@ -254,7 +257,9 @@ All other scripts passed static inspection with no network requests found — bu
 
 ### Credits
 
-See the Chinese section above for the full list of embedded credits (s0daa/CSGO-HVH-LUAS, skeet.cc community, sapphyrus, Bassn, SamzSakerz, Exodouding, havoc, qhouz, 3yozk1, BaKa, and zebrald's own scripts).
+See the Chinese section above for the full list of embedded credits (s0daa/CSGO-HVH-LUAS, skeet.cc community, sapphyrus, Bassn, SamzSakerz, Exodouding, havoc, qhouz, 3yozk1, BaKa, Seripk, and zebrald's own scripts).
+
+> `+Seripk_adaptive_weapon.lua` was originally written by **Seripk**; zebrald only fixes and maintains it (the file header notes `--fix and new features by zebrald`).
 
 ### Disclaimer
 
